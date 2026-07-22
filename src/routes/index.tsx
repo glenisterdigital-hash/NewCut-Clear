@@ -151,12 +151,12 @@ function Hero() {
         </div>
 
         <div className="relative overflow-hidden border-2 border-border aspect-[4/3] select-none">
-          <img src={heroBefore} alt="Overgrown plot before clearing" className="absolute inset-0 w-full h-full object-cover" />
+          <img src={heroCleared} alt="Overgrown plot before clearing" className="absolute inset-0 w-full h-full object-cover" />
           <div
             className="absolute inset-0 overflow-hidden"
             style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
           >
-            <img src={heroCleared} alt="Cleared plot after Cut and Clear service" className="absolute inset-0 w-full h-full object-cover" />
+            <img src={heroBefore} alt="Cleared plot after Cut and Clear service" className="absolute inset-0 w-full h-full object-cover" />
           </div>
           <div
             className="absolute top-0 bottom-0 w-1 bg-[var(--color-brand-orange)] shadow-[0_0_20px_rgba(255,102,0,0.6)]"
